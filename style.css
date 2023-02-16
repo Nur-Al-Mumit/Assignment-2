@@ -156,6 +156,39 @@ header {
   font-size: 30px;
 }
 
+/****************************************
+            Style For fourth-section
+*****************************************/
+.fourtsh-section-container{
+    margin-top: 100px;
+    padding: 30px;
+}
+.facts-heading{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.facts-blogs{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.facts-blog {
+    text-align: center;
+  border: 1px solid #ff900e;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  transition:  0.3s;
+}
+.facts-blog:hover{
+    transform: scale(1.1);
+
+}
+.facts-blog>p{
+    color: #727272
+    ;
+}
 /************************************************
              Responsive Style  
 *************************************************/
@@ -209,4 +242,11 @@ header {
     margin: auto;
     text-align: center;
   }
+  /***********************************************
+           Responsive Style For fourth-section
+**************************************************/
+.facts-blogs{
+    flex-direction: column;
+    align-items: center;
+}
 }
