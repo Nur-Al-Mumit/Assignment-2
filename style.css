@@ -14,6 +14,8 @@ header {
   background-color: rgba(255, 144, 14, 0.1);
 }
 .menu > a {
+    font-size: 20px;
+    font-weight: bold;
   color: #424242;
   margin-left: 10px;
   text-decoration: none;
@@ -215,6 +217,20 @@ header {
 }
 
 
+/****************************************
+            Style For Footer
+*****************************************/
+footer{
+margin: 100px auto;
+    width: 80%;
+    padding: 30px;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+}
+.footer-text{
+    text-align: center;
+}
+
 
 
 
@@ -286,7 +302,7 @@ header {
 .sponsors{
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 }
