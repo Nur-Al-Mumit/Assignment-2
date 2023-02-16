@@ -53,13 +53,54 @@ header {
 .explore-btn:hover {
   background-color: #faa23c;
 }
-
+.top-img {
+  padding: 30px;
+}
 .top-img > img {
   margin-top: 100px;
   width: 100%;
 }
-
-/* Responsive Style  */
+/****************************************
+            Style For Second-section
+*****************************************/
+.second-section-container {
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.group-img-container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.group-img {
+  width: 100%;
+}
+.group-info {
+  width: 50%;
+}
+.group-info > h1 {
+  color: #727272;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.group-info > p {
+  margin-bottom: 15px;
+}
+#bold-heading {
+  font-weight: bold;
+  color: #131313;
+}
+#color-heading {
+  color: #ff900e;
+  font-weight: bold;
+}
+/************************************************
+             Responsive Style  
+*************************************************/
 @media only screen and (max-width: 640px) {
   header {
     flex-direction: column;
@@ -72,6 +113,18 @@ header {
   }
 
   /*******************************
-            Style For First-section
+            Style For Second-section
   ******************************/
+  .second-section-container{
+    flex-direction: column-reverse
+  }
+  .group-info {
+    text-align: center;
+    width: 100%;
+  }
+  .group-img-container {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
 }
