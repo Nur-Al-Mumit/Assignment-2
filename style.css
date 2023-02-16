@@ -1,37 +1,77 @@
-*{
-    margin: 0;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  font-family: sans-serif;
 }
-
-body{
-    background-color: rgba(255, 144, 14, 0.1);
-}
-
 
 /*******************************
             Style For Header
   ******************************/
-header{
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 144, 14, 0.1);
 }
-.menu>a{
-    color: #424242;
-    margin-left: 10px;
-    text-decoration: none;
+.menu > a {
+  color: #424242;
+  margin-left: 10px;
+  text-decoration: none;
+}
+/*******************************
+            Style For First-section
+  ******************************/
+.first-section-container {
+  background-color: rgba(255, 144, 14, 0.1);
+  margin-bottom: 100px;
+}
+
+.top-info {
+  margin: auto;
+  width: 60%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.top-info > h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.top-info > p {
+  margin-bottom: 15px;
+}
+
+.explore-btn {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff900e;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+.explore-btn:hover {
+  background-color: #faa23c;
+}
+
+.top-img > img {
+  margin-top: 100px;
+  width: 100%;
 }
 
 /* Responsive Style  */
 @media only screen and (max-width: 640px) {
-    header{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .menu{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+  header {
+    flex-direction: column;
+    gap: 50px;
   }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /*******************************
+            Style For First-section
+  ******************************/
+}
