@@ -189,6 +189,37 @@ header {
     color: #727272
     ;
 }
+
+/****************************************
+            Style For Fifth-section
+*****************************************/
+
+
+.fifth-section-container{
+    margin-top: 100px;
+}
+.Sponspors-container{
+    text-align: center;
+}
+.Sponspors-heading{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.sponsors{
+    filter: grayscale(100%);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px
+        ;
+}
+
+
+
+
+
+
+
 /************************************************
              Responsive Style  
 *************************************************/
@@ -249,4 +280,13 @@ header {
     flex-direction: column;
     align-items: center;
 }
+/****************************************
+            Style For Fifth-section
+*****************************************/
+.sponsors{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 }
